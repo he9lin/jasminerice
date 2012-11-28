@@ -17,8 +17,8 @@
   jasmineEnv.specFilter = (spec) ->
     htmlReporter.specFilter spec
 
-  jasmine.getFixtures().fixturesPath = 'jasmine/fixtures'
-  jasmine.getJSONFixtures().fixturesPath = 'jasmine/fixtures/json'
+  jasmine.getFixtures().fixturesPath = 'jasmine/rice/fixtures'
+  jasmine.getJSONFixtures().fixturesPath = 'jasmine/rice/fixtures/json'
 
   jasmine.rice = {}
   jasmine.rice.autoExecute = true
