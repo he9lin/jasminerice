@@ -8,6 +8,6 @@ end
 
 if Jasminerice.mount
   Rails.application.routes.draw do
-    mount Jasminerice::Engine => "/jasmine"
+    mount Jasminerice::Engine => "/jasmine/rice"
   end
 end
